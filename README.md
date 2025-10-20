@@ -79,9 +79,11 @@ GROUP BY categoria
 ORDER BY total_vendas DESC;
 
 ---
-## 📄 Licença
-Este projeto é de código aberto e está sob a licença [MIT](https://opensource.org/licenses/MIT).
 
-## 📧 Contato
-* **Alessandra Machado** - @alessandramdsz
-* **Link do projeto:** [https://github.com/alessandramdsz/Desafio-Data-Wrangling-e-Pipelines-em-Python]
+📄 Licença
+Este projeto é de código aberto e está sob a licença MIT.
+
+📧 Contato
+Alessandra Machado - @alessandramdsz
+
+Link do projeto: [https://github.com/alessandramdsz/Desafio-Data-Wrangling-e-Pipelines-em-Python]
