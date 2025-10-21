@@ -55,11 +55,12 @@ Este código foi otimizado para rodar no Google Colab, fazendo uso das bibliotec
 1. **Abra o Notebook:** Cole o conteúdo do arquivo `desafio_data_wrangling_e_pipelines_em_python.py` em uma célula de código do Google Colab.
 2. **Suba o arquivo CSV:** O script tenta ler um arquivo chamado `vendas.csv`. Você deve garantir que o CSV está no mesmo diretório de execução ou alterar o `arquivo_id` e `url` no trecho:
     ```python
-    arquivo_id = "13IPaHOFEnvDkApg4E6jwyhvHvaOHFOLX" # Não esqueça de ajuster o caminho para novos arquivos, ok?
+    arquivo_id = "13IPaHOFEnvDkApg4E6jwyhvHvaOHFOLX"  # Não esqueça de ajustar o caminho para novos arquivos, ok?
     url = f"https://drive.google.com/uc?id={arquivo_id}"
     gdown.download(url, output, quiet=False)
     ```
-    *Dica: Você pode simplesmente subir o arquivo `vendas.csv` na sessão do Colab ou usar o `gdown` como configurado.*
+       *Dica: Você pode simplesmente subir o arquivo `vendas.csv` na sessão do Colab ou usar o `gdown` como configurado.*
+   
 3.  **Execute as células:** Execute as células de código sequencialmente.
 4.  **Download do banco:** Após executar, o script faz o download automático do banco de dados gerado:
     ```python
