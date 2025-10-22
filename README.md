@@ -62,7 +62,7 @@ Este código foi otimizado para rodar no Google Colab, fazendo uso das bibliotec
        Dica: Você pode simplesmente subir o arquivo `vendas.csv` na sessão do Colab ou usar o `gdown` como configurado.
        Notebook aqui se preferir fazer uma cópia https://colab.research.google.com/drive/1n45URFAAXMoZqlSYHwV5z-hhZUP4kNUR?usp=sharing
    
-4.  **Execute as células:** Execute as células de código sequencialmente.
+4.  **Execute as células:** Execute as células de código sequencialmente se pelo collab e do código completo se colado o código do arquivo.
 5.  **Download do banco:** Após executar, o script faz o download automático do banco de dados gerado:
     ```python
     from google.colab import files
