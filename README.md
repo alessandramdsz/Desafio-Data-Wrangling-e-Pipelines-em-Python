@@ -52,7 +52,7 @@ Este código foi projetado para rodar no **Google Colab**, utilizando-se de uplo
 
 Este código foi otimizado para rodar no Google Colab, fazendo uso das bibliotecas gdown, pandas e sqlite3.
 
-1. **Abra o Notebook:** Cole o conteúdo do arquivo `eniac_desafio_data_wrangling_e_pipelines_em_python.py` em uma célula de código do Google Colab.
+1. **Abra o Notebook:** Cole o conteúdo do arquivo `eniac_desafio_data_wrangling_e_pipelines_em_python.py` em uma célula de código do Google Colab. Disponível aqui: https://drive.google.com/file/d/1PbVcJZ1MOek4_OWEP0lDb6ZZEckqZfAv/view?usp=sharing
 2. **Suba o arquivo CSV:** O script tenta ler um arquivo chamado `vendas.csv`. Você deve garantir que o CSV está no mesmo diretório de execução ou alterar o `arquivo_id` e `url` no trecho:
     ```python
     arquivo_id = "1PbVcJZ1MOek4_OWEP0lDb6ZZEckqZfAv"  # Não esqueça de ajustar o caminho para novos arquivos, ok?
@@ -60,7 +60,7 @@ Este código foi otimizado para rodar no Google Colab, fazendo uso das bibliotec
     gdown.download(url, output, quiet=False)
     ```
        Dica: Você pode simplesmente subir o arquivo `vendas.csv` na sessão do Colab ou usar o `gdown` como configurado.
-       O código também disponível aqui https://drive.google.com/file/d/1PbVcJZ1MOek4_OWEP0lDb6ZZEckqZfAv/view?usp=sharing ou no notebook https://colab.research.google.com/drive/1n45URFAAXMoZqlSYHwV5z-hhZUP4kNUR?usp=sharing
+       Notebook aqui se preferir fazer uma cópia https://colab.research.google.com/drive/1n45URFAAXMoZqlSYHwV5z-hhZUP4kNUR?usp=sharing
    
 4.  **Execute as células:** Execute as células de código sequencialmente.
 5.  **Download do banco:** Após executar, o script faz o download automático do banco de dados gerado:
