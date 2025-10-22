@@ -59,10 +59,10 @@ Este código foi otimizado para rodar no Google Colab, fazendo uso das bibliotec
     url = f"https://drive.google.com/uc?id={arquivo_id}"
     gdown.download(url, output, quiet=False)
     ```
-       *Dica: Você pode simplesmente subir o arquivo `vendas.csv` na sessão do Colab ou usar o `gdown` como configurado.*
+       *Dica: Você pode simplesmente subir o arquivo `vendas.csv` na sessão do Colab ou usar o `gdown` como configurado. O código também disponível aqui https://drive.google.com/file/d/1PbVcJZ1MOek4_OWEP0lDb6ZZEckqZfAv/view?usp=sharing*
    
-3.  **Execute as células:** Execute as células de código sequencialmente.
-4.  **Download do banco:** Após executar, o script faz o download automático do banco de dados gerado:
+4.  **Execute as células:** Execute as células de código sequencialmente.
+5.  **Download do banco:** Após executar, o script faz o download automático do banco de dados gerado:
     ```python
     from google.colab import files
     files.download('vendas.db')
