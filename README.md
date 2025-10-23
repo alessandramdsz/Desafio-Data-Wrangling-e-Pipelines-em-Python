@@ -1,8 +1,18 @@
-# 🚀 Pipeline ETL de Análise de Vendas - Desafio Desafio-Data-Wrangling-e-Pipelines-em-Python - SQUAD ENIAC
+# 🚀 Pipeline ETL de análise de vendas - Desafio Desafio-Data-Wrangling-e-Pipelines-em-Python - SQUAD ENIAC
 # Membros: Alessandra, Aline, Caroline, Clara, Dayane, Elaine, Maria Elacide, Tandara
 
 [![Status](https://img.shields.io/badge/Status-Completo-green.svg)]()
 [![Tecnologias](https://img.shields.io/badge/Linguagem-Python-blue.svg)]()
+
+
+> [!WARNING]
+> ⚠️ **Antes de iniciar a execução, você precisa ter esses arquivos**
+>
+> Você pode encontrar os links abaixo:
+>
+> * [O arquivo do código pipeline.py](https://drive.google.com/file/d/1PbVcJZ1MOek4_OWEP0lDb6ZZEckqZfAv/view?usp=sharing)
+> * [O arquivo de banco de dados vendas.db](https://drive.google.com/file/d/15O96FC_dUnu-6cgY4LNo6ivUyVjSusiO/view?usp=sharing)
+> * [O código pipeline.py já aplicado no Collab - Desafio validado pelo SQUAD](https://colab.research.google.com/drive/1n45URFAAXMoZqlSYHwV5z-hhZUP4kNUR?usp=sharing)
 
 ## Descrição desse projeto
 
